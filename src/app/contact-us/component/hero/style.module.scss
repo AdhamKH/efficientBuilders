@@ -1,0 +1,137 @@
+.contactForm {
+  text-align: left;
+  padding: 2rem;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    .row {
+      width: 100%;
+      max-width: 500px;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      @media (min-width: 600px) {
+        flex-direction: row;
+      }
+
+      .column {
+        flex: 1;
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: column;
+
+        label {
+          margin-bottom: 0.5rem;
+        }
+
+        input,
+        select,
+        textarea {
+          width: 100%;
+          padding: 0.5rem;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+      }
+
+      .radioGroup {
+        display: flex;
+        flex-direction: column;
+
+        label {
+          margin-right: 1rem;
+          margin-bottom: 0.5rem;
+        }
+
+        @media (min-width: 600px) {
+          flex-direction: row;
+          flex-wrap: wrap;
+          label {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    button {
+      padding: 0.75rem 1.5rem;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin: auto;
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }
+  .social-icons {
+    display: flex;
+  }
+  .contactInfo {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // text-align: left;
+    width: 100%;
+    @media (min-width: 600px) {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .single {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    // div {
+    //   flex: 1;
+    //   max-width: 200px;
+    //   margin: 1rem;
+
+    //   span {
+    //     font-weight: bold;
+    //     display: block;
+    //     margin-bottom: 0.5rem;
+    //   }
+
+    //   p {
+    //     margin: 0;
+    //   }
+    // }
+    span {
+      //styleName: Heading/H4;
+      font-family: Roboto;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 41.6px;
+      text-align: left;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .contactForm {
+    width: 100%;
+  }
+}

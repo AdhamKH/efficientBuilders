@@ -1,0 +1,21 @@
+.container {
+  h3 {
+    //styleName: Text sm/Medium;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+  h4 {
+    //styleName: Text sm/Normal;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+  .match {
+    color: #dc6803;
+  }
+}

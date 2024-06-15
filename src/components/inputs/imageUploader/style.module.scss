@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // height: 100vh;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.uploadBox {
+  border: 1px solid black;
+  width: 100%;
+  // max-width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+
+.fileInput {
+  display: none;
+}
+
+.uploadLabel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  color: #ff9900;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.supportedFormats {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #888;
+}

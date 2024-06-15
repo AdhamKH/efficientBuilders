@@ -1,0 +1,17 @@
+.container {
+  .text {
+    display: inline;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .read-or-hide {
+    color: #f79009 !important;
+    cursor: pointer;
+    font-family: var(--font-catamaran);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+}

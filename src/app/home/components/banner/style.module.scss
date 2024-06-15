@@ -1,0 +1,38 @@
+.container {
+  margin: 0 3rem;
+  .content {
+    background-color: #f6a235;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+    h1 {
+      color: #ffffff;
+      font-size: 46px;
+      line-height: 1.1em;
+    }
+    button {
+      font-size: 15px;
+      font-weight: 700;
+      background-color: #1a1819;
+      padding: 19px 40px;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  @media (max-width: 700px) {
+    .content {
+      flex-direction: column;
+      padding: 20px 30px;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      h1 {
+        font-size: 17px;
+      }
+    }
+  }
+}
