@@ -1,3 +1,5 @@
+@import "../../style//scssVarables.scss";
+
 .container {
   .text {
     display: inline;
@@ -6,7 +8,7 @@
   }
 
   .read-or-hide {
-    color: #f79009 !important;
+    color: $primary-color !important;
     cursor: pointer;
     font-family: var(--font-catamaran);
     font-size: 15px;

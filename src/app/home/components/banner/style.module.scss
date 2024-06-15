@@ -1,7 +1,9 @@
+@import "../../../../style/scssVarables";
+
 .container {
   margin: 0 3rem;
   .content {
-    background-color: #f6a235;
+    background-color: $primary-color;
     width: 100%;
     display: flex;
     align-items: center;

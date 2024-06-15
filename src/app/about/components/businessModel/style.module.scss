@@ -1,3 +1,5 @@
+@import "../../../../style/scssVarables";
+
 .business-model {
   background-color: #fffaf0;
   padding: 40px 20px;
@@ -63,7 +65,7 @@
 .icon {
   font-size: 36px;
   margin-right: 20px;
-  color: #ffcc00;
+  color: $primary-color;
 }
 
 .details {
@@ -72,7 +74,7 @@
 
 .details h2 {
   font-size: 24px;
-  color: #ff9900;
+  color: $primary-color;
   margin: 0 0 10px 0;
 }
 

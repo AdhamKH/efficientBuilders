@@ -45,7 +45,7 @@ const NavBar = ({ data }: any) => {
             <li
               className={pathname?.includes("/projects") ? styles.active : ""}
             >
-              <Link href="/projects">projectsAAAAA</Link>
+              <Link href="/projects">projects</Link>
             </li>
 
             <Link href={"/contact-us"}>
@@ -61,7 +61,7 @@ const NavBar = ({ data }: any) => {
               <Link href="/license">License</Link>
             </li>
             <li className={pathname?.includes("team") ? styles.active : ""}>
-              <Link href="/team">Our teamsssssss</Link>
+              <Link href="/team">Our team</Link>
             </li>
           </ul>
         </div>
