@@ -104,6 +104,14 @@
   .convert {
     transform: rotate(180) !important;
   }
+  .customNavigation {
+    button {
+      svg {
+        color: $primary-color !important;
+        fill: $primary-color !important;
+      }
+    }
+  }
 }
 @media (max-width: 1024px) {
   .content {
@@ -157,6 +165,9 @@
   }
   .customNavigation {
     display: none !important;
+    svg {
+      color: $primary-color;
+    }
   }
 }
 

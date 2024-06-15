@@ -58,7 +58,7 @@ const Installation = ({ data }: any) => {
         <div className={styles.customNavigation}>
           <button ref={prevRef} className={styles.customPrevButton}>
             <svg
-              fill="#f6a235"
+              // fill="#f6a235"
               height="30px"
               width="30px"
               version="1.1"
@@ -88,7 +88,7 @@ const Installation = ({ data }: any) => {
           </button>
           <button ref={nextRef} className={styles.customNextButton}>
             <svg
-              fill="#f6a235"
+              // fill="#f6a235"
               height="30px"
               width="30px"
               version="1.1"
