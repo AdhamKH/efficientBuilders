@@ -89,7 +89,7 @@ const NavBar = ({ data }: any) => {
           </svg>
         </button>
       </div>
-      <SlidingPane open={show} setOpen={setShow} />
+      <SlidingPane open={show} setOpen={setShow} img={data?.data[0]?.logo} />
     </nav>
   );
 };
