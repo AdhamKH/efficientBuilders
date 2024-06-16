@@ -12,6 +12,7 @@ import { useRouter } from "next/navigation";
 type props = {
   open?: boolean;
   setOpen?: React.Dispatch<React.SetStateAction<boolean>>;
+  img: any;
 };
 
 export const navList = {
@@ -46,7 +47,7 @@ export const navItem = {
     },
   },
 };
-const SlidingPane: React.FC<props> = ({ open, setOpen }: props) => {
+const SlidingPane: React.FC<props> = ({ open, setOpen, img }: props) => {
   const pathname = usePathname();
   const { push } = useRouter();
 
@@ -98,7 +99,7 @@ const SlidingPane: React.FC<props> = ({ open, setOpen }: props) => {
         <div className={styles.heading}>
           <ul>
             <li className={styles.liFont}>
-              <Image src={logo} alt="logo"></Image>
+              <Image src={img} alt="logo"></Image>
             </li>
             <li className={styles.liFont}>
               <button onClick={handlClose}>
